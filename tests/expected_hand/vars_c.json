@@ -1,0 +1,9 @@
+{"_note": "Written by hand. LOG_FILE comes from paths.h. Not found on purpose: buf (array, can change), p (changed on line 24), argv[0].",
+ "defs": ["function|main.c|7|run", "function|main.c|11|save", "function|main.c|16|main"],
+ "calls": ["main|save|main.c|26", "main|run|main.c|27", "main|run|main.c|28"],
+ "imports": ["main.c|stdio.h|1", "main.c|stdlib.h|2"],
+ "includes": ["main.c|paths.h|3"],
+ "effects": ["main|reads|input.txt|main.c|18|", "main|writes|app.log|main.c|19|", "main|reads|state.dat|main.c|20|",
+             "main|writes|saved.txt|main.c|26|", "main|runs_command|make|main.c|27|make"],
+ "via": ["main|writes|saved.txt|26|save", "main|runs_command|make|27|run"],
+ "unknown_lines": ["main.c|13", "main.c|22", "main.c|25", "main.c|28"]}

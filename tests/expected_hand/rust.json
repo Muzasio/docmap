@@ -1,0 +1,10 @@
+{"_note": "Written by hand from reading the fixture, before the scanner existed. kind|file|line|name",
+ "defs": ["class|src/main.rs|4|App", "method|src/main.rs|9|App.new", "method|src/main.rs|13|App.run",
+          "method|src/main.rs|20|App.log", "function|src/main.rs|25|helper", "function|src/main.rs|29|main",
+          "class|src/net.rs|1|Handler", "method|src/net.rs|2|Handler.handle", "function|src/net.rs|5|listen",
+          "function|src/net.rs|9|open_socket"],
+ "calls": ["App.run|App.log|src/main.rs|14", "App.run|listen|src/main.rs|15", "App.run|helper|src/main.rs|17",
+           "main|App.new|src/main.rs|30", "listen|open_socket|src/net.rs|6"],
+ "imports": ["src/main.rs|std|1"],
+ "effects": ["App.run|reads|x|src/main.rs|16|"],
+ "unknown_lines": ["src/main.rs|16", "src/main.rs|26", "src/main.rs|31"]}

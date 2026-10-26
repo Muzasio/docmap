@@ -1,0 +1,9 @@
+{"_note": "Written by hand. Widget::draw is defined in widget.cpp but belongs to class Widget from widget.hpp.",
+ "defs": ["namespace|widget.hpp|4|ui", "class|widget.hpp|5|Widget", "method|widget.hpp|8|Widget.size",
+          "method|widget.hpp|10|Widget.width", "namespace|widget.cpp|4|ui", "function|widget.cpp|5|paint",
+          "method|widget.cpp|8|Widget.draw", "function|main.cpp|3|main"],
+ "calls": ["Widget.size|Widget.width|widget.hpp|8", "Widget.draw|Widget.size|widget.cpp|9",
+           "Widget.draw|paint|widget.cpp|10"],
+ "imports": ["widget.hpp|string|2", "widget.cpp|iostream|2"],
+ "includes": ["widget.cpp|widget.hpp|1", "main.cpp|widget.hpp|1"],
+ "unknown_lines": ["main.cpp|5"]}

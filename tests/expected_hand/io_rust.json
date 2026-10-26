@@ -1,0 +1,9 @@
+{"_note": "Written by hand. Files and commands. effects: from|kind|target|file|line|command words",
+ "defs": ["function|src/main.rs|5|save", "function|src/main.rs|11|run", "function|src/main.rs|16|main"],
+ "calls": ["main|save|src/main.rs|17", "main|run|src/main.rs|18"],
+ "imports": ["src/main.rs|std|1", "src/main.rs|std|2", "src/main.rs|std|3"],
+ "effects": ["save|writes|out.txt|src/main.rs|6|", "save|reads|in.txt|src/main.rs|8|",
+             "run|runs_command|ls|src/main.rs|12|ls -l /tmp", "main|deletes|x|src/main.rs|17|",
+             "run|reads|a.txt|src/main.rs|13|", "run|writes|b.txt|src/main.rs|13|"],
+ "via": ["main|deletes|x|17|save"],
+ "unknown_lines": ["src/main.rs|6", "src/main.rs|7", "src/main.rs|12", "src/main.rs|13"]}

@@ -1,0 +1,27 @@
+{
+ "_note": "Written by hand. worker() is nested in Box.start and uses the method's self. The string on line 8 only looks like a call. Lines 15-19: a nested function that calls itself (recursion) and is called by its parent.",
+ "defs": [
+  "class|app.py|1|Box",
+  "method|app.py|2|Box.start",
+  "function|app.py|3|Box.start.worker",
+  "method|app.py|7|Box.stop",
+  "function|app.py|11|main",
+  "function|app.py|15|walk",
+  "function|app.py|16|walk.visit"
+ ],
+ "calls": [
+  "Box.start.worker|Box.stop|app.py|4",
+  "walk.visit|walk.visit|app.py|18",
+  "walk|walk.visit|app.py|19"
+ ],
+ "references": [
+  "Box.start|Box.start.worker|app.py|5|after|10"
+ ],
+ "instantiates": [
+  "main|Box|app.py|12"
+ ],
+ "unknown_lines": [
+  "app.py|5",
+  "app.py|12"
+ ]
+}

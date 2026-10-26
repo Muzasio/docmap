@@ -1,0 +1,11 @@
+{"_note": "Written by hand. Not found on purpose: out (changed on line 15), SCRATCH (static mut), &other (built at run time).",
+ "defs": ["constant|src/main.rs|3|CONFIG", "constant|src/main.rs|4|SCRATCH", "function|src/main.rs|6|write_log",
+          "function|src/main.rs|10|load", "function|src/main.rs|20|main",
+          "namespace|src/main.rs|27|tests", "function|src/main.rs|28|helper_test"],
+ "calls": ["main|load|src/main.rs|21", "main|write_log|src/main.rs|22", "main|write_log|src/main.rs|24"],
+ "imports": ["src/main.rs|std|1"],
+ "effects": ["load|reads|data.json|src/main.rs|12|", "load|reads|app.toml|src/main.rs|13|",
+             "main|writes|events.log|src/main.rs|22|",
+             "helper_test|reads|t.txt|src/main.rs|30|"],
+ "via": ["main|writes|events.log|22|write_log"],
+ "unknown_lines": ["src/main.rs|16", "src/main.rs|17", "src/main.rs|23", "src/main.rs|24"]}

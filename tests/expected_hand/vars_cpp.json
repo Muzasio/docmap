@@ -1,0 +1,6 @@
+{"_note": "Written by hand. Not found on purpose: mutable_name (a std::string that is not const).",
+ "defs": ["function|main.cpp|8|open_both"],
+ "imports": ["main.cpp|fstream|1", "main.cpp|string|2", "main.cpp|cstdlib|3"],
+ "effects": ["open_both|reads|base.cfg|main.cpp|9|", "open_both|writes|temp.txt|main.cpp|12|",
+             "open_both|runs_command|cmake|main.cpp|14|cmake"],
+ "unknown_lines": ["main.cpp|10"]}

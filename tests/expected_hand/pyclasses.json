@@ -1,0 +1,8 @@
+{"_note": "Written by hand. Class in a class, class in a function, a one-line def, and close() in two classes (line 7 is Outer's).",
+ "defs": ["class|app.py|1|Outer", "class|app.py|2|Outer.Inner", "method|app.py|3|Outer.Inner.ping",
+          "method|app.py|6|Outer.go", "method|app.py|9|Outer.close", "method|app.py|11|Outer.reset",
+          "class|app.py|15|Other", "method|app.py|16|Other.close",
+          "function|app.py|20|test", "class|app.py|21|test.FW", "method|app.py|22|test.FW.run"],
+ "calls": ["Outer.go|Outer.close|app.py|7", "Outer.close|Outer.reset|app.py|9"],
+ "instantiates": ["test|test.FW|app.py|24"],
+ "unknown_lines": []}

@@ -1,0 +1,8 @@
+{"_note": "Written by hand. Sys is an alias for System. Line 15: path from args[0] is not known.",
+ "defs": ["namespace|Program.cs|5|Tools", "class|Program.cs|7|Program", "method|Program.cs|9|Program.Main"],
+ "calls": [],
+ "imports": ["Program.cs|System.IO|1", "Program.cs|System.Diagnostics|2", "Program.cs|System|3"],
+ "effects": ["Program.Main|reads|notes.txt|Program.cs|11|", "Program.Main|writes|C:\\temp\\out.txt|Program.cs|12|",
+             "Program.Main|reads|input.csv|Program.cs|13|", "Program.Main|runs_command|git|Program.cs|14|git pull --rebase",
+             "Program.Main|deletes|old.log|Program.cs|16|"],
+ "unknown_lines": ["Program.cs|15"]}

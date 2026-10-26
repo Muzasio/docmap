@@ -1,0 +1,9 @@
+{"_note": "Written by hand. p.Start() is unknown: the scanner does not work out the type of p.",
+ "defs": ["namespace|Program.cs|4|Demo", "class|Program.cs|6|Program", "method|Program.cs|8|Program.Main",
+          "method|Program.cs|15|Program.Start", "method|Program.cs|21|Program.Log", "class|Program.cs|26|Helper",
+          "method|Program.cs|28|Helper.Run", "class|Program.cs|33|IRunner", "method|Program.cs|35|IRunner.Run"],
+ "calls": ["Program.Main|Helper.Run|Program.cs|12", "Program.Start|Program.Log|Program.cs|17"],
+ "instantiates": ["Program.Main|Program|Program.cs|10"],
+ "imports": ["Program.cs|System|1", "Program.cs|System.IO|2"],
+ "effects": ["Program.Start|checks|x|Program.cs|18|"],
+ "unknown_lines": ["Program.cs|11", "Program.cs|18"]}

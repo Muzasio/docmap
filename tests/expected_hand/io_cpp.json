@@ -1,0 +1,8 @@
+{"_note": "Written by hand. fs is an alias for std::filesystem; ofstream works through 'using namespace std'.",
+ "defs": ["function|main.cpp|8|tidy", "function|main.cpp|15|main"],
+ "calls": ["main|tidy|main.cpp|19"],
+ "imports": ["main.cpp|fstream|1", "main.cpp|filesystem|2", "main.cpp|cstdlib|3"],
+ "effects": ["tidy|deletes|build|main.cpp|9|", "tidy|creates|out/logs|main.cpp|10|", "tidy|checks|cache|main.cpp|11|",
+             "main|reads|settings.ini|main.cpp|16|", "main|writes|result.txt|main.cpp|17|",
+             "main|runs_command|cmake|main.cpp|18|cmake --build ."],
+ "unknown_lines": []}

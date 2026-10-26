@@ -1,0 +1,8 @@
+{"_note": "Written by hand. Shapes that broke on real projects: target/ is build output (Cargo.toml next to it), return type on its own line, [Attributes] above, nested and typedef structs, a Rust string continued with a backslash, fn inside a macro (listed, line 11), 'fn fake' inside a string on line 15 (not listed).",
+ "defs": ["class|shapes.hpp|1|Box", "class|shapes.hpp|3|Point", "class|shapes.hpp|10|Pair",
+          "method|shapes.cpp|4|Box.area", "class|Tool.cs|4|Tool", "method|Tool.cs|7|Tool.Old",
+          "function|src/lib.rs|1|usage", "function|src/lib.rs|6|after", "function|src/lib.rs|14|noisy"],
+ "includes": ["shapes.cpp|shapes.hpp|1"],
+ "imports": ["Tool.cs|System|1"],
+ "build_dirs": ["target"],
+ "unknown_lines": ["src/lib.rs|11"]}

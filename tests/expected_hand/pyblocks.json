@@ -1,0 +1,22 @@
+{
+ "_note": "Written by hand. Functions and classes defined inside try / if / for blocks of a function are still that function's local names, so calls to them resolve like any nested function.",
+ "defs": [
+  "function|app.py|1|load",
+  "class|app.py|3|load.Reader",
+  "function|app.py|6|load.opener",
+  "function|app.py|11|load.check",
+  "function|app.py|17|run",
+  "function|app.py|19|run.show"
+ ],
+ "calls": [
+  "load.check|load.opener|app.py|12",
+  "load|load.check|app.py|13",
+  "load|load.opener|app.py|14",
+  "run|run.show|app.py|21"
+ ],
+ "references": [],
+ "instantiates": [
+  "load.opener|load.Reader|app.py|7"
+ ],
+ "unknown_lines": []
+}

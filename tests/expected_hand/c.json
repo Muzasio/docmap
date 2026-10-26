@@ -1,0 +1,6 @@
+{"_note": "Written by hand. util.h declares add() but only util.c defines it.",
+ "defs": ["class|util.h|3|point", "function|util.c|3|twice", "function|util.c|7|add", "function|main.c|4|main"],
+ "calls": ["add|twice|util.c|8", "main|add|main.c|6"],
+ "imports": ["main.c|stdio.h|1"],
+ "includes": ["util.c|util.h|1", "main.c|util.h|2"],
+ "unknown_lines": ["main.c|6"]}

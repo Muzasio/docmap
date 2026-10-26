@@ -1,0 +1,9 @@
+{"_note": "Written by hand. run.c gets unistd.h through run.h. Line 11 is a shell pipe: only 'ls' is drawn. Line 12: path from getenv is not known.",
+ "defs": ["function|main.c|6|main", "function|run.c|3|run_tool"],
+ "calls": ["main|run_tool|main.c|13"],
+ "imports": ["main.c|stdio.h|1", "main.c|stdlib.h|2", "main.c|fcntl.h|3", "run.h|unistd.h|1"],
+ "includes": ["main.c|run.h|4", "run.c|run.h|1"],
+ "effects": ["main|reads|config.txt|main.c|7|", "main|writes|log.txt|main.c|8|", "main|writes|data.bin|main.c|9|",
+             "main|runs_command|make|main.c|10|make clean", "main|runs_command|ls|main.c|11|ls",
+             "run_tool|runs_command|git|run.c|4|git", "run_tool|deletes|old.tmp|run.c|5|"],
+ "unknown_lines": ["main.c|11", "main.c|12"]}

@@ -1,0 +1,9 @@
+{"_note": "Written by hand. Not found on purpose: current (a field that is not const or readonly).",
+ "defs": ["class|Store.cs|4|Store", "method|Store.cs|10|Store.Save", "method|Store.cs|15|Store.Work"],
+ "calls": ["Store.Work|Store.Save|Store.cs|22", "Store.Work|Store.Save|Store.cs|23"],
+ "imports": ["Store.cs|System.IO|1", "Store.cs|System.Diagnostics|2"],
+ "effects": ["Store.Work|reads|store.db|Store.cs|17|", "Store.Work|reads|store.db|Store.cs|18|",
+             "Store.Work|writes|backup.db|Store.cs|18|", "Store.Work|runs_command|git|Store.cs|21|git status",
+             "Store.Work|writes|notes.txt|Store.cs|22|", "Store.Work|writes|store.db|Store.cs|23|"],
+ "via": ["Store.Work|writes|notes.txt|22|Save", "Store.Work|writes|store.db|23|Save"],
+ "unknown_lines": ["Store.cs|19"]}
