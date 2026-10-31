@@ -7,9 +7,6 @@
 ![Platform: Linux](https://img.shields.io/badge/platform-Linux-lightgrey)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-> [!NOTE]
-> **docmap is under active development.** The core works and is tested, but features, file formats and commands may still change. Feedback and bug reports are welcome in [Issues](https://github.com/Muzasio/docmap/issues).
-
 ![docmap showing a project's modules, libraries, files and commands](docs/images/overview.png)
 
 ## What is docmap?
@@ -46,8 +43,6 @@ flowchart LR
     D --> E["facts.json<br/>+ coverage report"]
     E --> F["Window<br/>diagrams, tabs, your notes"]
 ```
-
-Nothing in the window is invented by the page: it only draws what is in `facts.json`. Your edits are kept in a separate `layout.json` and cannot change the facts.
 
 ## Screenshots
 
@@ -89,7 +84,7 @@ New to it? The [user guide](docs/USER-GUIDE.md) explains how to read the diagram
 
 docmap is usable today and tested, and work on it continues.
 
-**Done**
+**Working**
 - Python, Rust, C, C++, C# and Markdown scanning with self-checks
 - All six views, tabs, editing layer, fallback window, setup helper, online lookup
 - Docs: tables (including escaped `|`) and images stored next to the docs
