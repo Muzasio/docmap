@@ -89,9 +89,6 @@ class Project(object):
     def text(self, rel, n):
         return self.trees[rel][1][n.start_byte:n.end_byte].decode("utf-8", "replace")
 
-    def line_of(self, rel, n):
-        return n.start_point[0] + 1
-
     def name_line(self, n):
         """Line of a definition's name: the return type or [Attributes] can be on lines above it."""
         name = n.child_by_field_name("name")

@@ -13,3 +13,7 @@ tests/fixtures/*/docs/viewer/
 .env
 settings.json
 *.local.json
+
+# Docs stay local; only the README screenshot folder is uploaded
+/docs/*
+!/docs/images/

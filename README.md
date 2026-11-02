@@ -70,8 +70,6 @@ docmap            # open the current folder
 docmap <folder>   # open another folder
 ```
 
-New to it? The [user guide](docs/USER-GUIDE.md) explains how to read the diagrams and learn a project step by step.
-
 ## Supported languages
 
 | Language | Read with | Extra install |
@@ -99,13 +97,6 @@ docmap is usable today and tested, and work on it continues.
 **Later**
 - More languages
 - Testing on more Linux distributions
-
-## Documentation
-
-| Document | What is in it |
-|---|---|
-| [User guide](docs/USER-GUIDE.md) | How to read the diagrams and learn any project, with a worked example |
-| [Reference](docs/REFERENCE.md) | Every command, view, setting, output file, limit and troubleshooting tip |
 
 ## Running the tests
 

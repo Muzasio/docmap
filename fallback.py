@@ -203,7 +203,7 @@ class Fallback(object):
                 at[i][0], at[i][1] = p
         for e in edges:
             x1, y1, w1, h1 = at[e["from"]]
-            x2, y2, w2, h2 = at[e["to"]]
+            x2, y2, _, h2 = at[e["to"]]
             dash = () if e["certain"] else (5, 4)
             if e["from"] == e["to"]:
                 c.create_line(x1 + w1 - 30, y1, x1 + w1 + 30, y1 - 40, x1 + w1 + 40, y1 + h1 / 2, x1 + w1, y1 + h1 / 2,
